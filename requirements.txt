@@ -1,0 +1,9 @@
+streamlit
+python-dotenv
+langchain
+PyPDF2
+faiss-cpu
+huggingface-hub==0.14.1
+-e .
+ctransformers==0.2.5
+sentence-transformers==2.2.2
