@@ -4,8 +4,6 @@ from src.prompt import*
 from langchain.vectorstores import FAISS
 
 
-
-
 def user_input(user_question):
     embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
     
